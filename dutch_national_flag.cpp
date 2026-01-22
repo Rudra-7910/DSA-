@@ -7,7 +7,10 @@ int main ()
     int mid=0;
     vector <int> a={1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0};
     int high= a.size()-1;
-    while(mid<=high)
+   // for(int i=mid;i<high;i++) (dont use it , because fir vo bss swap krega and wont redo the process ( if needed ) )
+   // for example , 1 and 0 swap hue , but now 0 ko again low pr swap krna h , for loop ye nhi krega sicne it will forcefully incremenet 
+   // but while loop will do it 
+   while(mid<high)
     {
         if(a[mid]==0)
         {
