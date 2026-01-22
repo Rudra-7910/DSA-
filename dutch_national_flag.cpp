@@ -3,6 +3,7 @@
 using namespace std;
 int main () 
 {
+    //time complexity is O(N) AND IN simple sorting algorithm it is O(N LOG N ) 
     int low=0;
     int mid=0;
     vector <int> a={1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,0,0,0};
