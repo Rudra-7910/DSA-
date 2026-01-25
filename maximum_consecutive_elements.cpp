@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namespace std;
+using namespace std;        //practiced
 int main ()
 {
     vector<int> elements={1,1,1,6,6,3,2,1,1,1,1,1};
