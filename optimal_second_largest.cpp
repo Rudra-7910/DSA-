@@ -21,3 +21,4 @@ int main ()
     cout<<"second_largest is "<< " "<<slargest;
     cout<<"largest is "<<" "<< largest;
 }
+//praticed
