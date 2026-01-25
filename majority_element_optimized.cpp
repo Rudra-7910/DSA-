@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>
+#include<vector>            //practiced
 using namespace std;
 int main() 
 {
@@ -32,7 +32,7 @@ int freq = 0;
 
     if (freq > a.size() / 2)
         cout << element << " is the majority element";
-    else
+    else    
         cout << "No majority element";
 }
 
@@ -50,4 +50,4 @@ int freq = 0;
 //   element last me bachta hai, wahi Phase-1 ka candidate hota hai. Lekin ye candidate zaroori nahi ki majority ho, 
 //   isliye Phase-2 me hum us candidate ki actual frequency count karte hain aur check karte hain 
 //   ki kya woh n/2 se zyada baar aaya hai ya nahi. Is example me 6 sirf ek baar aata hai, jo n/2 se zyada nahi hai, 
-//   isliye final result hota hai ki array me koi majority element nahi hai.
+//   isliye final result hota hai ki array me koi majority element nahi hai.        
